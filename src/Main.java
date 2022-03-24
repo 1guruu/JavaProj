@@ -19,10 +19,10 @@ double z=15;
 int f=2;
 int y=6;
 double x=3;
-        System.out.println("a."+(-a+b*y)+" este rezultatul\n" +
-                "b."+((c+d)%d)+" este rezultatul\n" +
-                "c."+(e+(-x)*a/b)+" este rezultatul\n" +
-                "d."+(a+z/x*f-b%x)+" este rezultatul\n");
+        System.out.println("a "+(-a+b*y)+" este rezultatul\n" +
+                "b "+((c+d)%d)+" este rezultatul\n" +
+                "c "+(e+(-x)*a/b)+" este rezultatul\n" +
+                "d "+(a+z/x*f-b%x)+" este rezultatul\n");
 
 
 
