@@ -6,7 +6,7 @@ public class Main {
 	// write your code here
         System.out.println("Hello\n" +
                 "Robert");
-int n=17;
+int n=17 ;
 double m=5;
         System.out.println(m+n+" este suma celor doua numere\n" +
                 n/m+" este rezultatul impartirii celor doua numere");
