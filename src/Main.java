@@ -1,11 +1,16 @@
 import java.sql.SQLOutput;
 
 public class Main {
-
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("Hello\n" +
-                "Robert");
+
+        printMyName();
+
+    }
+
+    public static void printMyName(){
+
+        System.out.println("Hello \n Robert");
+
 int n=17 ;
 double m=5;
         System.out.println(m+n+" este suma celor doua numere\n" +
