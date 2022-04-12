@@ -3,26 +3,74 @@ package AnimalRescuer;
 public class AppMain {
 
     public static void main(String[] args) {
-        Dog constantin = new Dog();
-        int x = 3;
-        System.out.println(x);
-        System.out.println("Varsta catelului este: "+ constantin.ageInMonths);
-
-        constantin.name = "TRex";
-        constantin.race = "";
-        System.out.println(constantin.name);
-        constantin.run();
-
-        DogFood FOOdog= new DogFood();
-        double y = 13;
-        System.out.println(y);
-        System.out.println("Noul pret este "+FOOdog.price+FOOdog.moneyValue);
-  //      int i=FOOdog.quantity;
-  //      double ii=FOOdog.price;
-  //      double m=ii/i;
-        System.out.println("Exact "+FOOdog.price+FOOdog.moneyValue+"\\"+FOOdog.quantity+" "+FOOdog.quantityType);
-
-
-
+        Dog rex = new Dog();
+        rex.setName("marcel");
+        rex.setAgeInMonths(44);
+        rex.setColor("ivory");
+        rex.setHealth(-12);
+        rex.setHungry(99);
+        rex.setRace("corcitura");
+        rex.setOwnerName("Ciorbea");
+        rex.setSpirit(666);
+        rex.setWeigth(15.79);
+        rex.setIsMale(true);
+        System.out.println("numele este: " + rex.getName());
+        System.out.println("nivelul de foame este: " + rex.getHungry());
+        System.out.println("culoarea lu' cutu: " + rex.getColor());
+        System.out.println("varsta lu' cutu: " + rex.getAgeInMonths());
+        System.out.println("nivelul sanatatii: " + rex.getHealth());
+        System.out.println("fecior? " + rex.getIsMale());
+        System.out.println("nume la stapan: " + rex.getOwnerName());
+        System.out.println("cainele este de rasa: " + rex.getRace());
+        System.out.println("spirit in dansul: " + rex.getSpirit());
+        System.out.println("cantareste: " + rex.getWeigth());
+        System.out.println("\s" );
+        DogFood hm = new DogFood();
+        hm.setDisponibility(123456);
+        hm.setDisponibilityType("tones");
+        hm.setMoneyValue("$");
+        hm.setPrice(666);
+        hm.setQuantity(1);
+        hm.setName("FOOdog");
+        hm.setQuantityType("hectograme");
+        System.out.println("nume la mancare: " + hm.getName());
+        System.out.println("stock: " + hm.getDisponibility());
+        System.out.println("ce fel de stock: " + hm.getDisponibilityType());
+        System.out.println("pret: " + hm.getPrice());
+        System.out.println("moneda: " + hm.getMoneyValue());
+        System.out.println("cantitatea: " + hm.getQuantity());
+        System.out.println("ce cantitate: " + hm.getQuantityType());
+        System.out.println("\s");
+        Girl iuda=new Girl();
+        iuda.setName("Mercedesa");
+        iuda.setAgeInMonths(60);
+        iuda.setNationality("african");
+        iuda.setSkinColor("purple");
+        iuda.setSavingMoney(987650);
+        iuda.setMoneyValue("ieuro");
+        iuda.setSavingFrom("OnlyFans");
+        System.out.println("nume la fata "+iuda.getName());
+        System.out.println("varsta la fata " +iuda.getAgeInMonths());
+        System.out.println("nationalitatea "+iuda.getNationality());
+        System.out.println("culoarea pielii dupa CERNOBIL "+iuda.getSkinColor());
+        System.out.println("cati verzisori are? "+iuda.getSavingMoney());
+        System.out.println("ce moneda? "+iuda.getMoneyValue());
+        System.out.println("de unde? "+iuda.getSavingFrom());
+        System.out.println("\s");
+        Veterinary iON=new Veterinary();
+        iON.setName("Macel Vasile");
+        iON.setAgeInMonths(666);
+        iON.setNationality("tigan");
+        iON.setSkinColor("alb");
+        iON.setSpecialization("stomatolog");
+        System.out.println("nume: "+iON.getName());
+        System.out.println("varsta: "+iON.getAgeInMonths());
+        System.out.println("nationalitate: "+iON.getNationality());
+        System.out.println("culoare: "+iON.getSkinColor());
+        System.out.println("specializare: "+iON.getSpecialization());
+        System.out.println("\s");
+        Recreation run=new Recreation();
+        run.setNumeRecreare("Playng fetch");
+        System.out.println(run.getNumeRecreare());
     }
 }

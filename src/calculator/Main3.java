@@ -4,45 +4,27 @@ public class Main3 {
 
     public static void main(String[] args) {
 
-
-   //    System.out.println(vremea(9));
-
         LogicalOperations op = new LogicalOperations();
-        System.out.println(op.verifyText("abd","edc"));
-        System.out.println(op.trioMax(13,45,1));
-        System.out.println(op.vote(18));
-        /*Exercitiu din prezentare curs
-        int nr=0;
-        switch (nr){
-            case 0:
-                System.out.println("Numarul tastat este 0");break;
-            case 1:
-                System.out.println("Numarul tastat este 1");break;
-            case 2:
-                System.out.println("Numarul tastat este 2");break;
-            case 3:
-                System.out.println("Numarul tastat este 3");break;
-            case 4:
-                System.out.println("Numarul tastat este 4");break;
-            case 5:
-                System.out.println("Numarul tastat este 5"); break;
-            case 6:
-                System.out.println("Numarul tastat este 6");break;
-            case 7:
-                System.out.println("Numarul tastat este 7");break;
-            case 8:
-                System.out.println("Numarul tastat este 8");break;
-            case 9:
-                System.out.println("Numarul tastat este 9");break;
-            default:
-                System.out.println("""
-                 +”””””+\s
-                [| o o |]
-                 |  ^  |\s
-                 | '_' |\s
-                 +_____+""");
+            op.CozaLozaWoza(1,110);
+//          System.out.println(op.verifyText("abd","edc"));
+//        System.out.println(op.trioMax(13,45,1));
+//        System.out.println(op.vote(18));
+//        op.numaratoareMica1(100,0);
+//        op.numaratoareMica(0,-100);
+//        op.numaratoareXY(15,98);
+//        op.numaratoareXY(34,7);
+//        op.mareMic(7,15);
+//        op.mareMic(15,7);
+//         op.pare(100,1);
+//         op.impar(100,1);
+//            op.asterix();
+//        System.out.println(op.sumaNR(5,10));
+//        System.out.println(op.sumaNrMedia(111,8899));
+//        System.out.println(op.sumaNrMedia(5,10));
+//        op.mediaLa7(5,15);
+//            op.Fibonacci();
 
-        }*/
+
 
 
 
