@@ -6,7 +6,7 @@ public class Main3 {
 
         LogicalOperations op = new LogicalOperations();
             op.CozaLozaWoza(1,110);
-//          System.out.println(op.verifyText("abd","edc"));
+//           System.out.println(op.verifyText("abd","edc"));
 //        System.out.println(op.trioMax(13,45,1));
 //        System.out.println(op.vote(18));
 //        op.numaratoareMica1(100,0);
